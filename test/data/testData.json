@@ -1,0 +1,17 @@
+{
+  "username": "john",
+  "password": "Admin",
+  "expectedtxt": "Save the details",
+
+  "valid": {
+    "username": "john",
+    "password": "Admin",
+    "expectedtxt": "Save the details"
+  },
+
+  "invalid": {
+    "username": "john",
+    "password": "john",
+    "expectedtxt": "the details not saved"
+  }
+}
